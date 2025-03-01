@@ -1,0 +1,31 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react/jsx-runtime",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "no-unused-vars": "warn",
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error"
+    },
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    }
+  }
